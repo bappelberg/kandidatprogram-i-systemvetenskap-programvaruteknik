@@ -1,0 +1,1686 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:vcard="http://nwalsh.com/rdf/vCard#">
+    <bib:Article rdf:about="#item_5">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>12</prism:volume>
+                <dc:title>IEEE Access</dc:title>
+                <dc:identifier>DOI https://doi.org/10.1109/ACCESS.2024.3468368</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mittal</foaf:surname>
+                        <foaf:givenName>Uday</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sai</foaf:surname>
+                        <foaf:givenName>Siva</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chamola</foaf:surname>
+                        <foaf:givenName>Vinay</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sangwan</foaf:surname>
+                        <foaf:givenName>Devika</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>A Comprehensive Review on Generative AI for Education</dc:title>
+        <dc:date>2024</dc:date>
+        <bib:pages>142733-142759</bib:pages>
+    </bib:Article>
+    <bib:Article rdf:about="#item_6">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>21</prism:volume>
+                <dc:title>The International Journal of Management Education</dc:title>
+                <dc:identifier>DOI https://doi.org/10.1016/j.ijme.2023.100790</dc:identifier>
+                <prism:number>2</prism:number>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lim</foaf:surname>
+                        <foaf:givenName>Weng Marc</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gunasekara</foaf:surname>
+                        <foaf:givenName>Asanka</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pallant</foaf:surname>
+                        <foaf:givenName>Jessica Leigh</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pallant</foaf:surname>
+                        <foaf:givenName>Jason Ian</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pechenkina</foaf:surname>
+                        <foaf:givenName>Ekaterina</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Generative AI and the future of education: Ragnarök or reformation? A paradoxical perspective from management educators</dc:title>
+        <dcterms:dateSubmitted>2025-06-05</dcterms:dateSubmitted>
+        <bib:pages>100790</bib:pages>
+    </bib:Article>
+    <rdf:Description rdf:about="https://www.statistikdatabasen.scb.se/">
+        <z:itemType>standard</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+               <foaf:name>Statistikmyndigheten SCB</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Statistiska centralbyrån</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Använt generativa AI-verktyg efter användning av internet, kön, redovisningsgrupp och år</dc:title>
+        <dc:date>2024</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://www.statistikdatabasen.scb.se/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-06-03</dcterms:dateSubmitted>
+    </rdf:Description>
+    <bib:Report rdf:about="https://svenskarnaochinternet.se/utvalt/svenskarna-och-ai-2024/">
+        <z:itemType>report</z:itemType>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Internetstiftelsen</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Svenskarna och AI 2024</dc:title>
+        <dc:date>2024</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://svenskarnaochinternet.se/utvalt/svenskarna-och-ai-2024/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-12-28</dcterms:dateSubmitted>
+    </bib:Report>
+    <bib:Report rdf:about="https://www.skolverket.se/sok-publikationer/publikationsserier/ovrigt-material/2024/artificiell-intelligens-i-undervisningen---grundskolan-forskoleklass-och-fritidshem">
+        <z:itemType>report</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Series>
+               <dcterms:alternative>Övrigt material</dcterms:alternative>
+            </bib:Series>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Skolverket</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Artificiell intelligens i undervisningen – grundskolan, förskoleklass och fritidshem</dc:title>
+        <dc:date>2024-12-12</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.skolverket.se/sok-publikationer/publikationsserier/ovrigt-material/2024/artificiell-intelligens-i-undervisningen---grundskolan-forskoleklass-och-fritidshem</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-01-12</dcterms:dateSubmitted>
+        <prism:number>2024:1206</prism:number>
+    </bib:Report>
+    <bib:Report rdf:about="https://www.sverigeslarare.se/om-oss/opinion-debatt/undersokningar/lararledd-digitalisering/">
+        <z:itemType>report</z:itemType>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Sveriges Lärare</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Lärarledd digitalisering - Möjligheter och förbehåll på tröskeln till ett nytt AI-landskap</dc:title>
+        <dc:date>2024</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.sverigeslarare.se/om-oss/opinion-debatt/undersokningar/lararledd-digitalisering/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-03-01</dcterms:dateSubmitted>
+    </bib:Report>
+    <rdf:Description rdf:about="https://regeringen.se/rapporter/2024/11/ai-kommissionens-fardplan-for-sverige/">
+        <z:itemType>standard</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Stockholm</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Regeringskansliet</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Finansdepartementet</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>AI-kommissionens Färdplan för Sverige</dc:title>
+        <dc:date>2024</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://regeringen.se/rapporter/2024/11/ai-kommissionens-fardplan-for-sverige/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-03-21</dcterms:dateSubmitted>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.regeringen.se/informationsmaterial/2018/05/nationell-inriktning-for-artificiell-intelligens/">
+        <z:itemType>standard</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Stockholm</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Regeringskansliet</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Finansdepartementet</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Nationell inriktning för artificiell intelligens</dc:title>
+        <dc:date>2018</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.regeringen.se/informationsmaterial/2018/05/nationell-inriktning-for-artificiell-intelligens/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-03-21</dcterms:dateSubmitted>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.scb.se/hitta-statistik/statistik-efter-amne/forskning-och-det-digitala-samhallet/forskning-och-utveckling/forskning-och-utveckling-i-sverige/pong/statistiknyhet/artificiell-intelligens-ai-i-sverige-2019/">
+        <z:itemType>standard</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+               <foaf:name>Statistikmyndigheten SCB</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Statistiska centralbyrån</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Artificiell intelligens (AI) i Sverige 2019</dc:title>
+        <dc:date>2019</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.scb.se/hitta-statistik/statistik-efter-amne/forskning-och-det-digitala-samhallet/forskning-och-utveckling/forskning-och-utveckling-i-sverige/pong/statistiknyhet/artificiell-intelligens-ai-i-sverige-2019/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-05-20</dcterms:dateSubmitted>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.svt.se/nyheter/inrikes/nvidias-vd-till-sverige-ta-kontrollen-over-er-intelligens-bygg-egen-ai">
+        <z:itemType>standard</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+               <foaf:name>SVT Nyheter</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                   <foaf:Person><foaf:surname>SVT</foaf:surname></foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Nvidias vd till Sverige: ”Ta kontrollen över er intelligens – bygg egen AI”</dc:title>
+        <dc:date>2025-05-24</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.svt.se/nyheter/inrikes/nvidias-vd-till-sverige-ta-kontrollen-over-er-intelligens-bygg-egen-ai</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-06-01</dcterms:dateSubmitted>
+    </rdf:Description>
+    <bib:Article rdf:about="#item_15">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>57</prism:volume>
+                <dc:title>Computers &amp; Education</dc:title>
+                <dc:identifier>DOI https://doi.org/10.1016/j.compedu.2011.06.008</dc:identifier>
+                <prism:number>4</prism:number>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Teo</foaf:surname>
+                        <foaf:givenName>Timothy</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Factors influencing teachers’ intention to use technology: Model development and test</dc:title>
+        <dc:date>2011</dc:date>
+        <bib:pages>2432-2440</bib:pages>
+    </bib:Article>
+    <rdf:Description rdf:about="https://larportalen.skolverket.se/api/resource/P03WCPLAR164977">
+        <z:itemType>standard</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Stockholm</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Skolverket</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tallvid</foaf:surname>
+                        <foaf:givenName>Martin</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Skolan i ett digitaliserat samhälle</dc:title>
+        <dc:date>2022</dc:date>
+        <z:shortTitle>Digitalisering – grundskola, gymnasieskola Modul: Leda och lära i tekniktäta klassrum Del 1: Skolan i ett digitaliserat samhälle</z:shortTitle>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://larportalen.skolverket.se/api/resource/P03WCPLAR164977</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-05-15</dcterms:dateSubmitted>
+    </rdf:Description>
+    <bib:Report rdf:about="https://ctl.ox.ac.uk/beyond-chatgpt">
+        <z:itemType>report</z:itemType>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Oxford University Centre for Teaching and Learning</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Beyond ChatGPT - A report on the state of generative AI in academic practice</dc:title>
+        <dc:date>2023</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://ctl.ox.ac.uk/beyond-chatgpt</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-01-18</dcterms:dateSubmitted>
+    </bib:Report>
+    <rdf:Description rdf:about="https://www.gov.uk/government/publications/generative-artificial-intelligence-in-education/generative-artificial-intelligence-ai-in-education">
+        <z:itemType>standard</z:itemType>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Department for Education</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Generative artificial intelligence (AI) in education</dc:title>
+        <dc:date>2025</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.gov.uk/government/publications/generative-artificial-intelligence-in-education/generative-artificial-intelligence-ai-in-education</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-05-20</dcterms:dateSubmitted>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.skolverket.se/skolutveckling/forskning-och-utvarderingar/artiklar-om-forskning/ai-inom-bedomning-vacker-forhoppningar-och-farhagor">
+        <z:itemType>standard</z:itemType>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Skolverket</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>AI inom bedömning väcker förhoppningar och farhågor</dc:title>
+        <dc:date>2022</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.skolverket.se/skolutveckling/forskning-och-utvarderingar/artiklar-om-forskning/ai-inom-bedomning-vacker-forhoppningar-och-farhagor</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-05-15</dcterms:dateSubmitted>
+    </rdf:Description>
+    <rdf:Description rdf:about="#item_22">
+        <z:itemType>standard</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Stockholm</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Utbildningsdepartementet</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>SFS 2010:800</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Skollag</dc:title>
+    </rdf:Description>
+    <bib:Report rdf:about="https://www.skolverket.se/sok-publikationer/publikationsserier/ovrigt-material/2024/artificiell-intelligens-i-undervisningen---gymnasieskolan">
+        <z:itemType>report</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Series>
+               <dcterms:alternative>Övrigt material</dcterms:alternative>
+            </bib:Series>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Skolverket</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Artificiell intelligens i undervisningen – gymnasieskolan</dc:title>
+        <dc:date>2024-08-21</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.skolverket.se/sok-publikationer/publikationsserier/ovrigt-material/2024/artificiell-intelligens-i-undervisningen---gymnasieskolan</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-01-12</dcterms:dateSubmitted>
+        <prism:number>2024:1206</prism:number>
+    </bib:Report>
+    <rdf:Description rdf:about="https://www.skolverket.se/kompetensutveckling/stod-i-arbetet/rad-om-ai-chattbottar-och-liknande-verktyg">
+        <z:itemType>standard</z:itemType>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Skolverket</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Råd om AI, Chattbottar och liknande verktyg</dc:title>
+        <dc:date>2025-05-19</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.skolverket.se/kompetensutveckling/stod-i-arbetet/rad-om-ai-chattbottar-och-liknande-verktyg</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-06-05</dcterms:dateSubmitted>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.skolverket.se/om-skolverket/nyheter-och-pressmeddelanden/nyheter/nyheter/2024-08-21-oro-for-att-ai-lockar-till-genvagar-istallet-for-larande">
+        <z:itemType>standard</z:itemType>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Skolverket</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Oro för att AI lockar till genvägar istället för lärande</dc:title>
+        <dc:date>2024-08-21</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.skolverket.se/om-skolverket/nyheter-och-pressmeddelanden/nyheter/nyheter/2024-08-21-oro-for-att-ai-lockar-till-genvagar-istallet-for-larande</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-06-05</dcterms:dateSubmitted>
+    </rdf:Description>
+    <bib:Article rdf:about="#item_26">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>DOI https://doi.org/10.48550/arXiv.2307.06435</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Naveed</foaf:surname>
+                        <foaf:givenName>Humza</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Khan</foaf:surname>
+                        <foaf:givenName>Asad Ullah</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Qiu</foaf:surname>
+                        <foaf:givenName>Shi</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Saqib</foaf:surname>
+                        <foaf:givenName>Muhammed</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Anwar</foaf:surname>
+                        <foaf:givenName>Saeed</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Usman</foaf:surname>
+                        <foaf:givenName>Muhammed</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Akhtar</foaf:surname>
+                        <foaf:givenName>Naveed</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Barnes</foaf:surname>
+                        <foaf:givenName>Nick</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mian</foaf:surname>
+                        <foaf:givenName>Ajmal</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>A Comprehensive Overview of Large Language Models</dc:title>
+        <dc:date>2024</dc:date>
+    </bib:Article>
+    <bib:Article rdf:about="#item_27">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>10</prism:volume>
+                <dc:title>npj Science of Learning</dc:title>
+                <dc:identifier>DOI https://doi.org/10.1038/s41539-025-00300-x</dc:identifier>
+                <prism:number>7</prism:number>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hu</foaf:surname>
+                        <foaf:givenName>Bihao</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhu</foaf:surname>
+                        <foaf:givenName>Jiayi</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pei</foaf:surname>
+                        <foaf:givenName>Yiying</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gu</foaf:surname>
+                        <foaf:givenName>Xiaoqing</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Exploring the potential of LLM to enhance teaching plans through teaching simulation</dc:title>
+    </bib:Article>
+    <rdf:Description rdf:about="https://www-ne-se.ezproxy.its.uu.se/uppslagsverk/encyklopedi/lång/expertsystem">
+        <z:itemType>encyclopediaArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Book></bib:Book>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Nationalencyklopedin</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>expertsystem</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www-ne-se.ezproxy.its.uu.se/uppslagsverk/encyklopedi/lång/expertsystem</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-05-20</dcterms:dateSubmitted>
+        <bib:pages>NE Nationalencyklopedin AB</bib:pages>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www-ne-se.ezproxy.its.uu.se/uppslagsverk/encyklopedi/lång/instrumentellt-värde">
+        <z:itemType>encyclopediaArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Book></bib:Book>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+               <foaf:name>NE Nationalencyklopedin AB</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Nationalencyklopedin</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>instrumentellt värde</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www-ne-se.ezproxy.its.uu.se/uppslagsverk/encyklopedi/lång/instrumentellt-värde</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-05-21</dcterms:dateSubmitted>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://michiganvirtual.org/research/publications/breaking-barriers-a-meta-analysis-of-educator-acceptance-of-ai-technology-in-education/">
+        <z:itemType>standard</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+               <foaf:name>Michigan Virtual Learning Research Institute</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>McGehee</foaf:surname>
+                        <foaf:givenName>Nikolas</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Breaking Barriers: A Meta-Analysis of Educator Acceptance of AI Technology in Education</dc:title>
+        <dc:date>2024-11-21</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://michiganvirtual.org/research/publications/breaking-barriers-a-meta-analysis-of-educator-acceptance-of-ai-technology-in-education/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+    </rdf:Description>
+    <bib:Article rdf:about="#item_31">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>166</prism:volume>
+                <dc:title>Computers &amp; Education</dc:title>
+                <dc:identifier>DOI https://doi.org/10.1016/j.compedu.2021.104159</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Backfisch</foaf:surname>
+                        <foaf:givenName>Iris</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lachner</foaf:surname>
+                        <foaf:givenName>Andreas</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Stürmer</foaf:surname>
+                        <foaf:givenName>Kathleen</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Scheiter</foaf:surname>
+                        <foaf:givenName>Katharina</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Variability of teachers’ technology integration in the classroom: A matter of utility!</dc:title>
+        <dc:date>2021</dc:date>
+        <bib:pages>104159</bib:pages>
+    </bib:Article>
+    <bib:Article rdf:about="https://doi.org/10.1016/j.compedu.2010.04.004">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>55</prism:volume>
+                <dc:title>Computers &amp; Education</dc:title>
+                <prism:number>3</prism:number>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Inan</foaf:surname>
+                        <foaf:givenName>Fethi A</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lowther</foaf:surname>
+                        <foaf:givenName>Deborah L</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Laptops in the K-12 classrooms: Exploring factors impacting instructional use</dc:title>
+        <dc:date>2010</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://doi.org/10.1016/j.compedu.2010.04.004</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>937-944</bib:pages>
+    </bib:Article>
+    <bib:Article rdf:about="#item_33">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>70</prism:volume>
+                <dc:title>Educational technology research and development</dc:title>
+                <dc:identifier>DOI https://doi.org/10.1007/s11423-022-10096-x</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chiu</foaf:surname>
+                        <foaf:givenName>Thomas K.F</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>School learning support for teacher technology integration from a self-determination theory perspective</dc:title>
+        <dc:date>2022</dc:date>
+        <bib:pages>931-949</bib:pages>
+    </bib:Article>
+    <rdf:Description rdf:about="https://www.kth.se/larande/aktuellt/digitalt-larande/digitaliseringen-maste-drivas-av-larare-1.1017498">
+        <z:itemType>standard</z:itemType>
+        <dc:publisher>
+           <foaf:Organization><foaf:name>KTH</foaf:name></foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hrastinski</foaf:surname>
+                        <foaf:givenName>Stefan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>”Digitaliseringen måste drivas av lärare”</dc:title>
+        <dc:date>2020-10-07</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.kth.se/larande/aktuellt/digitalt-larande/digitaliseringen-maste-drivas-av-larare-1.1017498</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+    </rdf:Description>
+    <bib:Article rdf:about="#item_35">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>40</prism:volume>
+                <dc:title>Information &amp; Management</dc:title>
+                <dc:identifier>DOI https://doi.org/10.1016/s0378-7206(01)00143-4</dc:identifier>
+                <prism:number>3</prism:number>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Legris</foaf:surname>
+                        <foaf:givenName>Paul</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ingham</foaf:surname>
+                        <foaf:givenName>John</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Collerette</foaf:surname>
+                        <foaf:givenName>Pierre</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Why do people use information technology? A critical review of the technology acceptance model</dc:title>
+        <dc:date>2003</dc:date>
+        <bib:pages>191-204</bib:pages>
+    </bib:Article>
+    <bib:Article rdf:about="#item_36">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>12</prism:volume>
+                <dc:title>Sustainability</dc:title>
+                <dc:identifier>DOI https://doi.org/10.3390/su12145568</dc:identifier>
+                <prism:number>14</prism:number>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chiu</foaf:surname>
+                        <foaf:givenName>Thomas K.F.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chai</foaf:surname>
+                        <foaf:givenName>Ching-sing</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Sustainable Curriculum Planning for Artificial Intelligence Education: A Self-Determination Theory Perspective</dc:title>
+        <dc:date>2020-07-07</dc:date>
+        <bib:pages>5568</bib:pages>
+    </bib:Article>
+    <bib:Article rdf:about="#item_37">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>Machine Learning Group, EISLAB, Luleå University of Technology, Sweden</dc:title>
+                <dc:identifier>DOI https://doi.org/10.48550/arXiv.2404.03486</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pettersson</foaf:surname>
+                        <foaf:givenName>Jenny</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hult</foaf:surname>
+                        <foaf:givenName>Elias</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Eriksson</foaf:surname>
+                        <foaf:givenName>Tim</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Adewumi</foaf:surname>
+                        <foaf:givenName>Tosin</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Generative AI and Teachers - For Us or Against Us? A Case Study</dc:title>
+    </bib:Article>
+    <bib:Article rdf:about="#item_38">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>21</prism:volume>
+                <dc:title>Information Systems Frontiers</dc:title>
+                <dc:identifier>DOI https://doi.org/10.1007/s10796-017-9774-y</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dwived</foaf:surname>
+                        <foaf:givenName>Yogesh K</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rana</foaf:surname>
+                        <foaf:givenName>Nripendra P</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Jeyaraj</foaf:surname>
+                        <foaf:givenName>Anand</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Clement</foaf:surname>
+                        <foaf:givenName>Marc</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Williams D</foaf:surname>
+                        <foaf:givenName>Michael</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Re-examining the Unified Theory of Acceptance and Use of Technology (UTAUT): Towards a Revised Theoretical Model</dc:title>
+        <dc:date>2019</dc:date>
+        <bib:pages>719-734</bib:pages>
+    </bib:Article>
+    <bib:Article rdf:about="https://www.jstor.org/stable/30036540">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>27</prism:volume>
+                <dc:title>MIS Quarterly</dc:title>
+                <dc:identifier>DOI https://doi.org/10.2307/30036540</dc:identifier>
+                <prism:number>3</prism:number>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Venkatesh</foaf:surname>
+                        <foaf:givenName>Viswanath</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Morris</foaf:surname>
+                        <foaf:givenName>Michael G</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Davis</foaf:surname>
+                        <foaf:givenName>Gordon B</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Davis</foaf:surname>
+                        <foaf:givenName>Fred D</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>User Acceptance of Information Technology: Toward a Unified View</dc:title>
+        <dc:date>2003</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://www.jstor.org/stable/30036540</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>425-478</bib:pages>
+    </bib:Article>
+    <bib:Article rdf:about="https://www.researchgate.net/publication/247644487_Technology_Acceptance_Model_3_and_a_Research_Agenda_on_Interventions">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>39</prism:volume>
+                <dc:title>Decision Sciences</dc:title>
+                <prism:number>2</prism:number>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Venkatesh</foaf:surname>
+                        <foaf:givenName>Viswanath</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bala</foaf:surname>
+                        <foaf:givenName>Hillol</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Technology Acceptance Model 3 and a Research Agenda on Interventions</dc:title>
+        <dc:date>2008</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.researchgate.net/publication/247644487_Technology_Acceptance_Model_3_and_a_Research_Agenda_on_Interventions</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>273-315</bib:pages>
+    </bib:Article>
+    <rdf:Description rdf:about="https://www.ei-ie.org/en/item/28115:the-unintended-consequences-of-artificial-intelligence-and-education">
+        <z:itemType>standard</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+               <foaf:name>Lärarnas yrkesinternational</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Holmes</foaf:surname>
+                        <foaf:givenName>Wayne</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>The Unintended Consequences of Artificial Intelligence and Education</dc:title>
+        <dc:date>2023</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.ei-ie.org/en/item/28115:the-unintended-consequences-of-artificial-intelligence-and-education</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+    </rdf:Description>
+    <bib:Article rdf:about="#item_42">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dcterms:isPartOf>
+                   <bib:Series><dc:title>Part A</dc:title></bib:Series>
+                </dcterms:isPartOf>
+                <prism:volume>252</prism:volume>
+                <dc:title>Expert Systems with Applications</dc:title>
+                <dc:identifier>DOI :https://doi.org/10.1016/j.eswa.2024.124167</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wang</foaf:surname>
+                        <foaf:givenName>Shan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wang</foaf:surname>
+                        <foaf:givenName>Fang</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhu</foaf:surname>
+                        <foaf:givenName>Zhen</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wang</foaf:surname>
+                        <foaf:givenName>Jingxuan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tran</foaf:surname>
+                        <foaf:givenName>Tam</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Du</foaf:surname>
+                        <foaf:givenName>Zhao</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Artificial intelligence in education: A systematic literature review</dc:title>
+        <dc:date>2024</dc:date>
+    </bib:Article>
+    <bib:Article rdf:about="#item_43">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>14</prism:volume>
+                <dc:title>Sage Open</dc:title>
+                <dc:identifier>DOI https://doi.org/10.1177/21582440241229570</dc:identifier>
+                <prism:number>1</prism:number>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Xue</foaf:surname>
+                        <foaf:givenName>Liangyong</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rashid</foaf:surname>
+                        <foaf:givenName>Abdullah Mat</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ouyang</foaf:surname>
+                        <foaf:givenName>Sha</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>The Unified Theory of Acceptance and Use of Technology (UTAUT) in Higher Education: A Systematic Review</dc:title>
+        <dc:date>2024</dc:date>
+    </bib:Article>
+    <bib:Article rdf:about="#item_44">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>7</prism:volume>
+                <dc:title>Frontiers in Artificial Intelligence</dc:title>
+                <dc:identifier>DOI https://doi.org/10.3389/frai.2024.1497705</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cabero-Almenara</foaf:surname>
+                        <foaf:givenName>Julio</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Palacios-Rodríguez</foaf:surname>
+                        <foaf:givenName>Antonio</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Loaiza-Aguirre</foaf:surname>
+                        <foaf:givenName>María Isabel</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Andrade-Abarca</foaf:surname>
+                        <foaf:givenName>Paola Salomé</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>The impact of pedagogical beliefs on the adoption of generative AI in higher education: predictive model from UTAUT2</dc:title>
+        <dc:date>2024</dc:date>
+    </bib:Article>
+    <bib:Article rdf:about="#item_45">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>7</prism:volume>
+                <dc:title>Computers and Education: Artificial Intelligence</dc:title>
+                <dc:identifier>DOI https://doi.org/10.1016/j.caeai.2024.100328</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kong</foaf:surname>
+                        <foaf:givenName>Siu Cheung</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yang</foaf:surname>
+                        <foaf:givenName>Yin</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hou</foaf:surname>
+                        <foaf:givenName>Chunyu</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Examining teachers’ behavioural intention of using generative artificial intelligence tools for teaching and learning based on the extended technology acceptance model</dc:title>
+        <dc:date>2024</dc:date>
+    </bib:Article>
+    <bib:Book rdf:about="urn:isbn:978-0-19-968945-3">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                        <vcard:locality>Great Clarendon Street, Oxford, OX2 6DP, United Kingdom</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Oxford University Press</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                   <foaf:Person><foaf:surname>Bryman</foaf:surname></foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Social Research Methods</dc:title>
+        <dc:identifier>ISBN 978-0-19-968945-3</dc:identifier>
+        <prism:edition>5</prism:edition>
+        <z:numPages>747</z:numPages>
+    </bib:Book>
+    <bib:Article rdf:about="https://www.jstor.org/stable/23010883">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>2</prism:volume>
+                <dc:title>Information Systems Research</dc:title>
+                <dc:identifier>DOI https://doi.org/10.1287/isre.2.3.192</dc:identifier>
+                <prism:number>3</prism:number>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Moore</foaf:surname>
+                        <foaf:givenName>Gary C</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Benbasat</foaf:surname>
+                        <foaf:givenName>Izak</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Development of an Instrument to Measure the Perceptions of Adopting an Information Technology Innovation</dc:title>
+        <dc:date>1991</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://www.jstor.org/stable/23010883</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>192-222</bib:pages>
+    </bib:Article>
+    <rdf:Description rdf:about="#item_48">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency</dc:title>
+                <dc:identifier>DOI https://doi.org/10.1145/3442188.3445922</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bender</foaf:surname>
+                        <foaf:givenName>Emily M</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gebru</foaf:surname>
+                        <foaf:givenName>Timnit</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>McMillian-Major</foaf:surname>
+                        <foaf:givenName>Angelina</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Shmitchell</foaf:surname>
+                        <foaf:givenName>Shmargaret</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?</dc:title>
+        <dc:date>2021-03-01</dc:date>
+        <bib:pages>610-623</bib:pages>
+        <bib:presentedAt>
+           <bib:Conference><dc:title>FAccT '21</dc:title></bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <bib:Article rdf:about="#item_49">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1741-0398"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Williams</foaf:surname>
+                        <foaf:givenName>Michael D</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rana</foaf:surname>
+                        <foaf:givenName>Nripendra P</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dwivedi</foaf:surname>
+                        <foaf:givenName>Yogesh K</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>The unified theory of acceptance and use of technology (UTAUT): a literature review</dc:title>
+        <dc:date>2015</dc:date>
+        <bib:pages>443-488</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1741-0398">
+        <prism:volume>28</prism:volume>
+        <dc:title>Journal of Enterprise Information Management</dc:title>
+        <dc:identifier>DOI https://doi.org/10.1108/JEIM-09-2014-0088</dc:identifier>
+        <prism:number>3</prism:number>
+        <dc:identifier>ISSN 1741-0398</dc:identifier>
+    </bib:Journal>
+    <bib:Book rdf:about="https://openai.com/chatgpt/overview/">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+           <foaf:Organization><foaf:name>OpenAI</foaf:name></foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                   <foaf:Person><foaf:surname>OpenAI</foaf:surname></foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>ChatGPT Overview</dc:title>
+        <dc:date>2025-06-05</dc:date>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://openai.com/chatgpt/overview/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+    </bib:Book>
+    <bib:Article rdf:about="#item_51">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>21</prism:volume>
+                <dc:title>Journal of Experimental Social Psychology</dc:title>
+                <dc:identifier>DOI https://doi.org/10.1016/0022-1031(85)90017-4</dc:identifier>
+                <prism:number>3</prism:number>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Warshaw</foaf:surname>
+                        <foaf:givenName>Paul R</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Davis</foaf:surname>
+                        <foaf:givenName>Fred D</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Disentangling behavioral intention and behavioral expectation</dc:title>
+        <dc:date>1985</dc:date>
+        <bib:pages>213-228</bib:pages>
+    </bib:Article>
+    <bib:Article rdf:about="#item_52">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>14</prism:volume>
+                <dc:title>Education Sciences</dc:title>
+                <dc:identifier>DOI https://doi.org/10.3390/educsci14111209</dc:identifier>
+                <prism:number>11</prism:number>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Al-Abdullatif</foaf:surname>
+                        <foaf:givenName>Ahlam Mohammed</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Modeling Teachers’ Acceptance of Generative Artificial Intelligence Use in Higher Education: The Role of AI Literacy, Intelligent TPACK, and Perceived Trust</dc:title>
+        <dc:date>2024</dc:date>
+        <bib:pages>1209</bib:pages>
+    </bib:Article>
+    <bib:Book rdf:about="urn:isbn:978-1-5297-3269-6">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                        <vcard:locality>1 Oliver’s Yard  55 City Road  London EC1Y 1SP</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>SAGE Publications Ltd</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Oates</foaf:surname>
+                        <foaf:givenName>Briony J</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Griffiths</foaf:surname>
+                        <foaf:givenName>Marie</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>McLean</foaf:surname>
+                        <foaf:givenName>Rachel</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Researching Information Systems and Computing</dc:title>
+        <dc:date>2022</dc:date>
+        <dc:identifier>ISBN 978-1-5297-3269-6</dc:identifier>
+    </bib:Book>
+    <bib:Book rdf:about="#item_54">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Box 367, 201 23 Malmö</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Gleerups Utbildning AB</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hjerm</foaf:surname>
+                        <foaf:givenName>Mikael</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lindgren</foaf:surname>
+                        <foaf:givenName>Simon</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nilsson</foaf:surname>
+                        <foaf:givenName>Marco</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Introduktion till samhällsvetenskaplig analys</dc:title>
+        <prism:edition>2</prism:edition>
+    </bib:Book>
+    <bib:Book rdf:about="#item_55">
+        <z:itemType>book</z:itemType>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hair</foaf:surname>
+                        <foaf:givenName>Joseph F Jr</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hult</foaf:surname>
+                        <foaf:givenName>G Thomas M</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ringle</foaf:surname>
+                        <foaf:givenName>Christian M</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sarstedt</foaf:surname>
+                        <foaf:givenName>Marko</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Danks</foaf:surname>
+                        <foaf:givenName>Nicholas P</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Soumya Ray</foaf:surname>
+                        <foaf:givenName>Ray</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Partial Least Squares Structural Equation Modeling (PLS-SEM) Using R</dc:title>
+    </bib:Book>
+    <bib:Article rdf:about="#item_56">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>8</prism:volume>
+                <dc:title>Psychological Assessment</dc:title>
+                <dc:identifier>DOI https://doi.org/10.1037/1040-3590.8.4.350</dc:identifier>
+                <prism:number>4</prism:number>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Schmitt</foaf:surname>
+                        <foaf:givenName>Neal</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Uses and Abuses of Coefficient Alpha</dc:title>
+        <dc:date>1996</dc:date>
+        <bib:pages>350-353</bib:pages>
+    </bib:Article>
+    <bib:Book rdf:about="urn:isbn:978-0-471-18386-0">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+               <foaf:name>John Wiley &amp; Sons, Inc.</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Little</foaf:surname>
+                        <foaf:givenName>Roderick J A</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rubin</foaf:surname>
+                        <foaf:givenName>Donald B</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Statistical Analysis with Missing Data</dc:title>
+        <dc:date>2020</dc:date>
+        <dc:identifier>ISBN 978-0-471-18386-0</dc:identifier>
+        <prism:edition>3</prism:edition>
+    </bib:Book>
+    <bib:Article rdf:about="#item_59">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>48</prism:volume>
+                <dc:title>Research in Science Education</dc:title>
+                <dc:identifier>DOI https://doi.org/10.1007/s11165-016-9602-2</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Taber</foaf:surname>
+                        <foaf:givenName>Keith S</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>The Use of Cronbach’s Alpha When Developing and Reporting Research Instruments in Science Education</dc:title>
+        <dc:date>2018</dc:date>
+        <bib:pages>1273-1296</bib:pages>
+    </bib:Article>
+    <bib:Book rdf:about="urn:isbn:978-91-89845-08-4">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                        <vcard:locality>Box 1035 SE-101 38 Stockholm, Sweden</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Vetenskapsrådet</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>God forskningssed 2024</dc:title>
+        <dc:date>2024</dc:date>
+        <dc:identifier>ISBN 978-91-89845-08-4</dc:identifier>
+    </bib:Book>
+    <bib:Article rdf:about="#item_61">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>1</prism:volume>
+                <dc:title>Research Methods in Applied Linguistics</dc:title>
+                <dc:identifier>DOI https://doi.org/10.1016/j.rmal.2022.100027</dc:identifier>
+                <prism:number>3</prism:number>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hair</foaf:surname>
+                        <foaf:givenName>Joseph</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Alamer</foaf:surname>
+                        <foaf:givenName>Abdullah</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Partial Least Squares Structural Equation Modeling (PLS-SEM) in second language and education research: Guidelines using an applied example</dc:title>
+    </bib:Article>
+</rdf:RDF>

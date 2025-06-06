@@ -1,0 +1,2457 @@
+<!DOCTYPE html>
+<html><head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src data:; style-src 'unsafe-inline' data:">
+		<title>Zotero Report</title>
+		<link rel="stylesheet" type="text/css" href="data:text/css;base64,Ym9keSB7Cgljb2xvci1zY2hlbWU6IGxpZ2h0IGRhcms7CgkvKiBUaGVzZSBzaG91bGQgYmUgdGhlIGRlZmF1bHRzLCBidXQganVzdCBpbiBjYXNlOiAqLwoJYmFja2dyb3VuZDogQ2FudmFzOwoJY29sb3I6IENhbnZhc1RleHQ7Cn0KCmEgewoJdGV4dC1kZWNvcmF0aW9uOiB1bmRlcmxpbmU7Cn0KCmJvZHkgewoJcGFkZGluZzogMDsKfQoKdWwucmVwb3J0IGxpLml0ZW0gewoJYm9yZGVyLXRvcDogNHB4IHNvbGlkICM1NTU7CglwYWRkaW5nLXRvcDogMWVtOwoJcGFkZGluZy1sZWZ0OiAxZW07CglwYWRkaW5nLXJpZ2h0OiAxZW07CgltYXJnaW4tYm90dG9tOiAyZW07Cn0KCmgxLCBoMiwgaDMsIGg0LCBoNSwgaDYgewoJZm9udC13ZWlnaHQ6IG5vcm1hbDsKfQoKaDIgewoJbWFyZ2luOiAwIDAgLjVlbTsKfQoKaDIucGFyZW50SXRlbSB7Cglmb250LXdlaWdodDogNjAwOwoJZm9udC1zaXplOiAxZW07CglwYWRkaW5nOiAwIDAgLjVlbTsKCWJvcmRlci1ib3R0b206IDFweCBzb2xpZCAjY2NjOwp9CgovKiBJZiBjb21iaW5pbmcgY2hpbGRyZW4sIGRpc3BsYXkgcGFyZW50IHNsaWdodGx5IGxhcmdlciAqLwp1bC5yZXBvcnQuY29tYmluZUNoaWxkSXRlbXMgaDIucGFyZW50SXRlbSB7Cglmb250LXNpemU6IDEuMWVtOwoJcGFkZGluZy1ib3R0b206IC43NWVtOwoJbWFyZ2luLWJvdHRvbTogLjRlbTsKfQoKaDIucGFyZW50SXRlbSAudGl0bGUgewoJZm9udC13ZWlnaHQ6IG5vcm1hbDsKfQoKaDMgewoJbWFyZ2luLWJvdHRvbTogLjZlbTsKCWZvbnQtd2VpZ2h0OiA2MDAgIWltcG9ydGFudDsKCWZvbnQtc2l6ZTogMWVtOwoJZGlzcGxheTogYmxvY2s7Cn0KCi8qIE1ldGFkYXRhIHRhYmxlICovCnRoIHsKCXZlcnRpY2FsLWFsaWduOiB0b3A7Cgl0ZXh0LWFsaWduOiByaWdodDsKCXdpZHRoOiAxNSU7Cgl3aGl0ZS1zcGFjZTogbm93cmFwOwp9Cgp0ZCB7CglwYWRkaW5nLWxlZnQ6IC41ZW07Cn0KCgp1bC5yZXBvcnQsIHVsLm5vdGVzLCB1bC50YWdzIHsKCWxpc3Qtc3R5bGU6IG5vbmU7CgltYXJnaW4tbGVmdDogMDsKCXBhZGRpbmctbGVmdDogMDsKfQoKLyogVGFncyAqLwpoMy50YWdzIHsKCWZvbnQtc2l6ZTogMS4xZW07Cn0KCnVsLnRhZ3MgewoJbGluZS1oZWlnaHQ6IDEuNzVlbTsKCWxpc3Qtc3R5bGU6IG5vbmU7Cn0KCnVsLnRhZ3MgbGkgewoJZGlzcGxheTogaW5saW5lOwp9Cgp1bC50YWdzIGxpOm5vdCg6bGFzdC1jaGlsZCk6YWZ0ZXIgewoJY29udGVudDogJywgJzsKfQoKCi8qIENoaWxkIG5vdGVzICovCmgzLm5vdGVzIHsKCWZvbnQtc2l6ZTogMS4xZW07Cn0KCnVsLm5vdGVzIHsKCW1hcmdpbi1ib3R0b206IDEuMmVtOwp9Cgp1bC5ub3RlcyA+IGxpOmZpcnN0LWNoaWxkIHAgewoJbWFyZ2luLXRvcDogMDsKfQoKdWwubm90ZXMgPiBsaSB7CglwYWRkaW5nOiAuN2VtIDA7Cn0KCnVsLm5vdGVzID4gbGk6bm90KDpsYXN0LWNoaWxkKSB7Cglib3JkZXItYm90dG9tOiAxcHggI2NjYyBzb2xpZDsKfQoKCnVsLm5vdGVzID4gbGkgcDpmaXJzdC1jaGlsZCB7CgltYXJnaW4tdG9wOiAwOwp9Cgp1bC5ub3RlcyA+IGxpIHA6bGFzdC1jaGlsZCB7CgltYXJnaW4tYm90dG9tOiAwOwp9CgovKiBBZGQgcXVvdGF0aW9uIG1hcmtzIGFyb3VuZCBibG9ja3F1b3RlICovCnVsLm5vdGVzID4gbGkgYmxvY2txdW90ZSBwOm5vdCg6ZW1wdHkpOmJlZm9yZSwKbGkubm90ZSBibG9ja3F1b3RlIHA6bm90KDplbXB0eSk6YmVmb3JlIHsKCWNvbnRlbnQ6ICfigJwnOwp9Cgp1bC5ub3RlcyA+IGxpIGJsb2NrcXVvdGUgcDpub3QoOmVtcHR5KTpsYXN0LWNoaWxkOmFmdGVyLApsaS5ub3RlIGJsb2NrcXVvdGUgcDpub3QoOmVtcHR5KTpsYXN0LWNoaWxkOmFmdGVyIHsKCWNvbnRlbnQ6ICfigJ0nOwp9CgovKiBQcmVzZXJ2ZSB3aGl0ZXNwYWNlIG9uIHBsYWludGV4dCBub3RlcyAqLwp1bC5ub3RlcyBsaSBwLnBsYWludGV4dCwgbGkubm90ZSBwLnBsYWludGV4dCwgZGl2Lm5vdGUgcC5wbGFpbnRleHQgewoJd2hpdGUtc3BhY2U6IHByZS13cmFwOwp9CgovKiBEaXNwbGF5IHRhZ3Mgd2l0aGluIGNoaWxkIG5vdGVzIGlubGluZSAqLwp1bC5ub3RlcyBoMy50YWdzIHsKCWRpc3BsYXk6IGlubGluZTsKCWZvbnQtc2l6ZTogMWVtOwp9Cgp1bC5ub3RlcyBoMy50YWdzOmFmdGVyIHsKCWNvbnRlbnQ6ICcgJzsKfQoKdWwubm90ZXMgdWwudGFncyB7CglkaXNwbGF5OiBpbmxpbmU7Cn0KCnVsLm5vdGVzIHVsLnRhZ3MgbGk6bm90KDpsYXN0LWNoaWxkKTphZnRlciB7Cgljb250ZW50OiAnLCAnOwp9CgoKLyogQ2hpbGQgYXR0YWNobWVudHMgKi8KaDMuYXR0YWNobWVudHMgewoJZm9udC1zaXplOiAxLjFlbTsKfQoKdWwuYXR0YWNobWVudHMgbGkgewoJcGFkZGluZy10b3A6IC41ZW07Cn0KCnVsLmF0dGFjaG1lbnRzIGRpdi5ub3RlIHsKCW1hcmdpbi1sZWZ0OiAyZW07Cn0KCnVsLmF0dGFjaG1lbnRzIGRpdi5ub3RlIHA6Zmlyc3QtY2hpbGQgewoJbWFyZ2luLXRvcDogLjc1ZW07Cn0KCmRpdiB0YWJsZSB7Cglib3JkZXItY29sbGFwc2U6IGNvbGxhcHNlOwp9CgpkaXYgdGFibGUgdGQsIGRpdiB0YWJsZSB0aCB7Cglib3JkZXI6IDFweCAjY2NjIHNvbGlkOwoJYm9yZGVyLWNvbGxhcHNlOiBjb2xsYXBzZTsKCXdvcmQtYnJlYWs6IGJyZWFrLWFsbDsKfQoKZGl2IHRhYmxlIHRkIHA6ZW1wdHk6OmFmdGVyLCBkaXYgdGFibGUgdGggcDplbXB0eTo6YWZ0ZXIgewoJY29udGVudDogIlwwMGEwIjsKfQoKZGl2IHRhYmxlIHRkICo6Zmlyc3QtY2hpbGQsIGRpdiB0YWJsZSB0aCAqOmZpcnN0LWNoaWxkIHsKCW1hcmdpbi10b3A6IDA7Cn0KCmRpdiB0YWJsZSB0ZCAqOmxhc3QtY2hpbGQsIGRpdiB0YWJsZSB0aCAqOmxhc3QtY2hpbGQgewoJbWFyZ2luLWJvdHRvbTogMDsKfQo=">
+		<link rel="stylesheet" type="text/css" media="screen,projection" href="data:text/css;base64,LyogR2VuZXJpYyBzdHlsZXMgKi8KYm9keSB7Cglmb250OiA2Mi41JSBHZW9yZ2lhLCBUaW1lcywgc2VyaWY7Cgl3aWR0aDogNzgwcHg7CgltYXJnaW46IDAgYXV0bzsKfQoKaDIgewoJZm9udC1zaXplOiAxLjVlbTsKCWxpbmUtaGVpZ2h0OiAxLjVlbTsKCWZvbnQtZmFtaWx5OiBHZW9yZ2lhLCBUaW1lcywgc2VyaWY7Cn0KCnAgewoJbGluZS1oZWlnaHQ6IDEuNWVtOwp9CgphOmFueS1saW5rIHsKCWNvbG9yOiAjOTAwOwp9CgphOmhvdmVyLCBhOmFjdGl2ZSB7Cgljb2xvcjogIzc3NzsKfQoKQG1lZGlhIChwcmVmZXJzLWNvbG9yLXNjaGVtZTogZGFyaykgewoJYTphbnktbGluayB7CgkJY29sb3I6ICNmMDA7Cgl9CgoJYTpob3ZlciwgYTphY3RpdmUgewoJCWNvbG9yOiAjOTk5OwoJfQp9CgoKdWwucmVwb3J0IHsKCWZvbnQtc2l6ZTogMS40ZW07Cgl3aWR0aDogNjgwcHg7CgltYXJnaW46IDAgYXV0bzsKCXBhZGRpbmc6IDIwcHggMjBweDsKfQoKLyogTWV0YWRhdGEgdGFibGUgKi8KdGFibGUgewoJYm9yZGVyOiAxcHggI2NjYyBzb2xpZDsKCW92ZXJmbG93OiBhdXRvOwoJd2lkdGg6IDEwMCU7CgltYXJnaW46IC4xZW0gYXV0byAuNzVlbTsKCXBhZGRpbmc6IDAuNWVtOwp9Cg==">
+		<link rel="stylesheet" type="text/css" media="print" href="data:text/css;base64,Ym9keSB7Cglmb250OiAxMnB0ICJUaW1lcyBOZXcgUm9tYW4iLCBUaW1lcywgR2VvcmdpYSwgc2VyaWY7CgltYXJnaW46IDA7Cgl3aWR0aDogYXV0bzsKfQoKLyogUGFnZSBCcmVha3MgKHBhZ2UtYnJlYWstaW5zaWRlIG9ubHkgcmVjb2duaXplZCBieSBPcGVyYSkgKi8KaDEsIGgyLCBoMywgaDQsIGg1LCBoNiB7CglwYWdlLWJyZWFrLWFmdGVyOiBhdm9pZDsKCXBhZ2UtYnJlYWstaW5zaWRlOiBhdm9pZDsKfQoKdWwsIG9sLCBkbCB7CglwYWdlLWJyZWFrLWluc2lkZTogYXZvaWQ7Cgljb2xvci1hZGp1c3Q6IGV4YWN0Owp9CgpoMiB7Cglmb250LXNpemU6IDEuM2VtOwoJbGluZS1oZWlnaHQ6IDEuM2VtOwp9CgphIHsKCWNvbG9yOiBpbmhlcml0OwoJdGV4dC1kZWNvcmF0aW9uOiBub25lOwp9Cg==">
+	</head>
+	<body>
+		<ul class="report combineChildItems">
+			<li id="item_N6W6U7AK" class="item journalArticle">
+			<h2>Modeling Teachers’ Acceptance of Generative Artificial 
+Intelligence Use in Higher Education: The Role of AI Literacy, 
+Intelligent TPACK, and Perceived Trust</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Ahlam Mohammed Al-Abdullatif</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2024</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>14</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>1209</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Education Sciences</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/https://doi.org/10.3390/educsci14111209">https://doi.org/10.3390/educsci14111209</a></td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>11</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>2025-06-05, 16:10:49</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>2025-06-05, 16:11:56</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_LAG7UAZC" class="item journalArticle">
+			<h2>Variability of teachers’ technology integration in the classroom: A matter of utility!</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Iris Backfisch</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Andreas Lachner</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Kathleen Stürmer</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Katharina Scheiter</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2021</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>166</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>104159</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Computers &amp; Education</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/https://doi.org/10.1016/j.compedu.2021.104159">https://doi.org/10.1016/j.compedu.2021.104159</a></td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>2025-06-05, 14:57:32</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>2025-06-05, 14:59:12</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_DC6N3NMA" class="item conferencePaper">
+			<h2>On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Conference Paper</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Emily M Bender</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Timnit Gebru</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Angelina McMillian-Major</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Shmargaret Shmitchell</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2021-03-01</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>610-623</td>
+					</tr>
+					<tr>
+					<th>Proceedings Title</th>
+						<td>Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency</td>
+					</tr>
+					<tr>
+					<th>Conference Name</th>
+						<td>FAccT '21</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/https://doi.org/10.1145/3442188.3445922">https://doi.org/10.1145/3442188.3445922</a></td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>2025-06-05, 15:54:09</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>2025-06-05, 15:56:09</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_PANK52X2" class="item book">
+			<h2>Social Research Methods</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Book</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Bryman</td>
+					</tr>
+					<tr>
+					<th>Place</th>
+						<td>Great Clarendon Street, Oxford, OX2 6DP, United Kingdom</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>Oxford University Press</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-0-19-968945-3</td>
+					</tr>
+					<tr>
+					<th>Edition</th>
+						<td>5</td>
+					</tr>
+					<tr>
+					<th># of Pages</th>
+						<td>747</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>2025-06-05, 15:41:55</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>2025-06-05, 15:43:56</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_5L4IFIM8" class="item journalArticle">
+			<h2>The impact of pedagogical beliefs on the adoption of generative AI in higher education: predictive model from UTAUT2</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Julio Cabero-Almenara</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Antonio Palacios-Rodríguez</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>María Isabel Loaiza-Aguirre</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Paola Salomé Andrade-Abarca</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2024</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>7</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Frontiers in Artificial Intelligence</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/https://doi.org/10.3389/frai.2024.1497705">https://doi.org/10.3389/frai.2024.1497705</a></td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>2025-06-05, 15:35:26</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>2025-06-05, 15:39:11</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_L5H8SAIE" class="item journalArticle">
+			<h2>School learning support for teacher technology integration from a self-determination theory perspective</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Thomas K.F Chiu</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2022</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>70</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>931-949</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Educational technology research and development</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/https://doi.org/10.1007/s11423-022-10096-x">https://doi.org/10.1007/s11423-022-10096-x</a></td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>2025-06-05, 15:01:48</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>2025-06-05, 15:27:09</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_FCT8IIUQ" class="item journalArticle">
+			<h2>Sustainable Curriculum Planning for Artificial Intelligence Education: A Self-Determination Theory Perspective</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Thomas K.F. Chiu</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Ching-sing Chai</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2020-07-07</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>12</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>5568</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Sustainability</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/https://doi.org/10.3390/su12145568">https://doi.org/10.3390/su12145568</a></td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>14</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>2025-06-05, 15:09:20</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>2025-06-05, 15:21:55</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_ITP8J7ZA" class="item standard">
+			<h2>Generative artificial intelligence (AI) in education</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Standard</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Department for Education</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2025</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.gov.uk/government/publications/generative-artificial-intelligence-in-education/generative-artificial-intelligence-ai-in-education">https://www.gov.uk/government/publications/generative-artificial-intelligence-in-education/generative-artificial-intelligence-ai-in-education</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>2025-05-20, 02:00:00</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>2025-06-05, 13:21:59</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>2025-06-05, 13:28:45</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_XSVU247M" class="item journalArticle">
+			<h2>Re-examining the Unified Theory of Acceptance and Use of Technology (UTAUT): Towards a Revised Theoretical Model</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Yogesh K Dwived</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Nripendra P Rana</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Anand Jeyaraj</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Marc Clement</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Michael Williams D</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2019</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>21</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>719-734</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Information Systems Frontiers</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/https://doi.org/10.1007/s10796-017-9774-y">https://doi.org/10.1007/s10796-017-9774-y</a></td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>2025-06-05, 15:14:28</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>2025-06-05, 15:16:34</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_MDJKVWHL" class="item standard">
+			<h2>AI-kommissionens Färdplan för Sverige</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Standard</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Finansdepartementet</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2024</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://regeringen.se/rapporter/2024/11/ai-kommissionens-fardplan-for-sverige/">https://regeringen.se/rapporter/2024/11/ai-kommissionens-fardplan-for-sverige/</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>2025-03-21, 01:00:00</td>
+					</tr>
+					<tr>
+					<th>Place</th>
+						<td>Stockholm</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>Regeringskansliet</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>2025-06-05, 11:59:09</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>2025-06-05, 12:07:41</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_Y7FE9ZDL" class="item standard">
+			<h2>Nationell inriktning för artificiell intelligens</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Standard</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Finansdepartementet</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2018</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.regeringen.se/informationsmaterial/2018/05/nationell-inriktning-for-artificiell-intelligens/">https://www.regeringen.se/informationsmaterial/2018/05/nationell-inriktning-for-artificiell-intelligens/</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>2025-03-21, 01:00:00</td>
+					</tr>
+					<tr>
+					<th>Place</th>
+						<td>Stockholm</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>Regeringskansliet</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>2025-06-05, 12:09:41</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>2025-06-05, 12:11:18</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_PF6LNAS3" class="item journalArticle">
+			<h2>Partial Least Squares Structural Equation Modeling (PLS-SEM) in 
+second language and education research: Guidelines using an applied 
+example</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Joseph Hair</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Abdullah Alamer</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>1</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Research Methods in Applied Linguistics</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/https://doi.org/10.1016/j.rmal.2022.100027">https://doi.org/10.1016/j.rmal.2022.100027</a></td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>3</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>2025-06-05, 16:38:29</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>2025-06-05, 16:39:22</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_EMUS7PWG" class="item book">
+			<h2>Partial Least Squares Structural Equation Modeling (PLS-SEM) Using R</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Book</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Joseph F Jr Hair</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>G Thomas M Hult</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Christian M Ringle</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Marko Sarstedt</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Nicholas P Danks</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Ray Soumya Ray</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>2025-06-05, 16:21:44</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>2025-06-05, 16:23:44</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_5JJFQFF9" class="item book">
+			<h2>Introduktion till samhällsvetenskaplig analys</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Book</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Mikael Hjerm</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Simon Lindgren</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Marco Nilsson</td>
+					</tr>
+					<tr>
+					<th>Place</th>
+						<td>Box 367, 201 23 Malmö</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>Gleerups Utbildning AB</td>
+					</tr>
+					<tr>
+					<th>Edition</th>
+						<td>2</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>2025-06-05, 16:19:04</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>2025-06-05, 16:21:03</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_SQMTZ4FU" class="item standard">
+			<h2>The Unintended Consequences of Artificial Intelligence and Education</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Standard</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Wayne Holmes</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2023</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.ei-ie.org/en/item/28115:the-unintended-consequences-of-artificial-intelligence-and-education">https://www.ei-ie.org/en/item/28115:the-unintended-consequences-of-artificial-intelligence-and-education</a></td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>Lärarnas yrkesinternational</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>2025-06-05, 15:28:42</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>2025-06-05, 15:30:14</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_I6JGIMIP" class="item standard">
+			<h2>”Digitaliseringen måste drivas av lärare”</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Standard</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Stefan Hrastinski</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2020-10-07</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.kth.se/larande/aktuellt/digitalt-larande/digitaliseringen-maste-drivas-av-larare-1.1017498">https://www.kth.se/larande/aktuellt/digitalt-larande/digitaliseringen-maste-drivas-av-larare-1.1017498</a></td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>KTH</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>2025-06-05, 15:04:03</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>2025-06-05, 15:05:20</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_LLMHL8F7" class="item journalArticle">
+			<h2>Exploring the potential of LLM to enhance teaching plans through teaching simulation</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Bihao Hu</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Jiayi Zhu</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Yiying Pei</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Xiaoqing Gu</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>10</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>npj Science of Learning</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/https://doi.org/10.1038/s41539-025-00300-x">https://doi.org/10.1038/s41539-025-00300-x</a></td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>7</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>2025-06-05, 14:37:34</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>2025-06-05, 14:39:56</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_JF6B8VKX" class="item journalArticle">
+			<h2>Laptops in the K-12 classrooms: Exploring factors impacting instructional use</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Fethi A Inan</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Deborah L Lowther</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2010</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://doi.org/10.1016/j.compedu.2010.04.004">https://doi.org/10.1016/j.compedu.2010.04.004</a></td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>55</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>937-944</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Computers &amp; Education</td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>3</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>2025-06-05, 15:00:10</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>2025-06-05, 15:01:12</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_EELHRQZN" class="item report">
+			<h2>Svenskarna och AI 2024</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Report</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Internetstiftelsen</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2024</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://svenskarnaochinternet.se/utvalt/svenskarna-och-ai-2024/">https://svenskarnaochinternet.se/utvalt/svenskarna-och-ai-2024/</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>2024-12-28, 01:00:00</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>2025-06-05, 11:36:57</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>2025-06-05, 12:05:30</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_EFGPVWY5" class="item journalArticle">
+			<h2>Examining teachers’ behavioural intention of using generative 
+artificial intelligence tools for teaching and learning based on the 
+extended technology acceptance model</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Siu Cheung Kong</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Yin Yang</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Chunyu Hou</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2024</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>7</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Computers and Education: Artificial Intelligence</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/https://doi.org/10.1016/j.caeai.2024.100328">https://doi.org/10.1016/j.caeai.2024.100328</a></td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>2025-06-05, 15:39:16</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>2025-06-05, 15:40:08</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_7TVFLG8I" class="item journalArticle">
+			<h2>Why do people use information technology? A critical review of the technology acceptance model</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Paul Legris</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>John Ingham</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Pierre Collerette</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2003</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>40</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>191-204</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Information &amp; Management</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/https://doi.org/10.1016/s0378-7206(01)00143-4">https://doi.org/10.1016/s0378-7206(01)00143-4</a></td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>3</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>2025-06-05, 15:06:12</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>2025-06-05, 15:07:29</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_WAPUJVVB" class="item journalArticle">
+			<h2>Generative AI and the future of education: Ragnarök or reformation? A paradoxical perspective from management educators</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Weng Marc Lim</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Asanka Gunasekara</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Jessica Leigh Pallant</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Jason Ian Pallant</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Ekaterina Pechenkina</td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>2025-06-05, 02:00:00</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>21</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>100790</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>The International Journal of Management Education</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/https://doi.org/10.1016/j.ijme.2023.100790">https://doi.org/10.1016/j.ijme.2023.100790</a></td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>2</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>2025-06-05, 11:12:40</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>2025-06-05, 11:30:09</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_R782WTG6" class="item book">
+			<h2>Statistical Analysis with Missing Data</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Book</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Roderick J A Little</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Donald B Rubin</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2020</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>John Wiley &amp; Sons, Inc.</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-0-471-18386-0</td>
+					</tr>
+					<tr>
+					<th>Edition</th>
+						<td>3</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>2025-06-05, 16:26:29</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>2025-06-05, 16:29:35</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_RPIYZ5DX" class="item standard">
+			<h2>Breaking Barriers: A Meta-Analysis of Educator Acceptance of AI Technology in Education</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Standard</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Nikolas McGehee</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2024-11-21</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://michiganvirtual.org/research/publications/breaking-barriers-a-meta-analysis-of-educator-acceptance-of-ai-technology-in-education/">https://michiganvirtual.org/research/publications/breaking-barriers-a-meta-analysis-of-educator-acceptance-of-ai-technology-in-education/</a></td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>Michigan Virtual Learning Research Institute</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>2025-06-05, 14:54:20</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>2025-06-05, 14:55:25</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_382CHR6C" class="item journalArticle">
+			<h2>A Comprehensive Review on Generative AI for Education</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Uday Mittal</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Siva Sai</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Vinay Chamola</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Devika Sangwan</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2024</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>12</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>142733-142759</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>IEEE Access</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/https://doi.org/10.1109/ACCESS.2024.3468368">https://doi.org/10.1109/ACCESS.2024.3468368</a></td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>2025-06-05, 11:09:00</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>2025-06-05, 11:30:54</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_3PKPPGVG" class="item journalArticle">
+			<h2>Development of an Instrument to Measure the Perceptions of Adopting an Information Technology Innovation</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Gary C Moore</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Izak Benbasat</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>1991</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.jstor.org/stable/23010883">https://www.jstor.org/stable/23010883</a></td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>2</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>192-222</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Information Systems Research</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/https://doi.org/10.1287/isre.2.3.192">https://doi.org/10.1287/isre.2.3.192</a></td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>3</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>2025-06-05, 15:50:28</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>2025-06-05, 15:51:50</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_7RTPG6ER" class="item encyclopediaArticle">
+			<h2>expertsystem</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Encyclopedia Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Nationalencyklopedin</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www-ne-se.ezproxy.its.uu.se/uppslagsverk/encyklopedi/l%C3%A5ng/expertsystem">https://www-ne-se.ezproxy.its.uu.se/uppslagsverk/encyklopedi/lång/expertsystem</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>2025-05-20, 02:00:00</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>NE Nationalencyklopedin AB</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>2025-06-05, 14:49:07</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>2025-06-05, 14:50:56</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_DRX8W3T4" class="item encyclopediaArticle">
+			<h2>instrumentellt värde</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Encyclopedia Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Nationalencyklopedin</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www-ne-se.ezproxy.its.uu.se/uppslagsverk/encyklopedi/l%C3%A5ng/instrumentellt-v%C3%A4rde">https://www-ne-se.ezproxy.its.uu.se/uppslagsverk/encyklopedi/lång/instrumentellt-värde</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>2025-05-21, 02:00:00</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>NE Nationalencyklopedin AB</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>2025-06-05, 14:49:54</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>2025-06-05, 14:51:13</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_HT5KDLS3" class="item journalArticle">
+			<h2>A Comprehensive Overview of Large Language Models</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Humza Naveed</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Asad Ullah Khan</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Shi Qiu</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Muhammed Saqib</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Saeed Anwar</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Muhammed Usman</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Naveed Akhtar</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Nick Barnes</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Ajmal Mian</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2024</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/https://doi.org/10.48550/arXiv.2307.06435">https://doi.org/10.48550/arXiv.2307.06435</a></td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>2025-06-05, 14:31:09</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>2025-06-05, 14:35:59</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_QHLPH2H5" class="item book">
+			<h2>Researching Information Systems and Computing</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Book</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Briony J Oates</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Marie Griffiths</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Rachel McLean</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2022</td>
+					</tr>
+					<tr>
+					<th>Place</th>
+						<td>1 Oliver’s Yard  55 City Road  London EC1Y 1SP</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>SAGE Publications Ltd</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-1-5297-3269-6</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>2025-06-05, 16:14:22</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>2025-06-05, 16:17:49</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_YFGBL88N" class="item book">
+			<h2>ChatGPT Overview</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Book</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>OpenAI</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2025-06-05</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://openai.com/chatgpt/overview/">https://openai.com/chatgpt/overview/</a></td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>OpenAI</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>2025-06-05, 16:02:14</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>2025-06-05, 16:43:39</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_HICEQLB7" class="item report">
+			<h2>Beyond ChatGPT - A report on the state of generative AI in academic practice</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Report</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Oxford University Centre for Teaching and Learning</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2023</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://ctl.ox.ac.uk/beyond-chatgpt">https://ctl.ox.ac.uk/beyond-chatgpt</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>2025-01-18, 01:00:00</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>2025-06-05, 13:19:12</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>2025-06-05, 13:20:37</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_EVL5JTDQ" class="item journalArticle">
+			<h2>Generative AI and Teachers - For Us or Against Us? A Case Study</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Jenny Pettersson</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Elias Hult</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Tim Eriksson</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Tosin Adewumi</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Machine Learning Group, EISLAB, Luleå University of Technology, Sweden</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/https://doi.org/10.48550/arXiv.2404.03486">https://doi.org/10.48550/arXiv.2404.03486</a></td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>2025-06-05, 15:12:38</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>2025-06-05, 15:13:43</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_Y5TGG5Z7" class="item journalArticle">
+			<h2>Uses and Abuses of Coefficient Alpha</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Neal Schmitt</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>1996</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>8</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>350-353</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Psychological Assessment</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/https://doi.org/10.1037/1040-3590.8.4.350">https://doi.org/10.1037/1040-3590.8.4.350</a></td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>4</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>2025-06-05, 16:24:39</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>2025-06-05, 16:25:48</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_22PSLQF6" class="item standard">
+			<h2>Skollag</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Standard</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>SFS 2010:800</td>
+					</tr>
+					<tr>
+					<th>Place</th>
+						<td>Stockholm</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>Utbildningsdepartementet</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>2025-06-05, 13:29:40</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>2025-06-05, 13:31:35</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_FE34BFF5" class="item report">
+			<h2>Artificiell intelligens i undervisningen – grundskolan, förskoleklass och fritidshem</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Report</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Skolverket</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2024-12-12</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.skolverket.se/sok-publikationer/publikationsserier/ovrigt-material/2024/artificiell-intelligens-i-undervisningen---grundskolan-forskoleklass-och-fritidshem">https://www.skolverket.se/sok-publikationer/publikationsserier/ovrigt-material/2024/artificiell-intelligens-i-undervisningen---grundskolan-forskoleklass-och-fritidshem</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>2025-01-12, 01:00:00</td>
+					</tr>
+					<tr>
+					<th>Series Title</th>
+						<td>Övrigt material</td>
+					</tr>
+					<tr>
+					<th>Report Number</th>
+						<td>2024:1206</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>2025-06-05, 11:39:48</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>2025-06-05, 14:18:31</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_PPJ5SDJE" class="item standard">
+			<h2>AI inom bedömning väcker förhoppningar och farhågor</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Standard</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Skolverket</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2022</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.skolverket.se/skolutveckling/forskning-och-utvarderingar/artiklar-om-forskning/ai-inom-bedomning-vacker-forhoppningar-och-farhagor">https://www.skolverket.se/skolutveckling/forskning-och-utvarderingar/artiklar-om-forskning/ai-inom-bedomning-vacker-forhoppningar-och-farhagor</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>2025-05-15, 02:00:00</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>2025-06-05, 13:26:04</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>2025-06-05, 14:12:05</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_UHPDI4VJ" class="item report">
+			<h2>Artificiell intelligens i undervisningen – gymnasieskolan</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Report</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Skolverket</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2024-08-21</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.skolverket.se/sok-publikationer/publikationsserier/ovrigt-material/2024/artificiell-intelligens-i-undervisningen---gymnasieskolan">https://www.skolverket.se/sok-publikationer/publikationsserier/ovrigt-material/2024/artificiell-intelligens-i-undervisningen---gymnasieskolan</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>2025-01-12, 01:00:00</td>
+					</tr>
+					<tr>
+					<th>Series Title</th>
+						<td>Övrigt material</td>
+					</tr>
+					<tr>
+					<th>Report Number</th>
+						<td>2024:1206</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>2025-06-05, 13:45:53</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>2025-06-05, 14:18:35</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_49FM7Z9D" class="item standard">
+			<h2>Råd om AI, Chattbottar och liknande verktyg</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Standard</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Skolverket</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2025-05-19</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.skolverket.se/kompetensutveckling/stod-i-arbetet/rad-om-ai-chattbottar-och-liknande-verktyg">https://www.skolverket.se/kompetensutveckling/stod-i-arbetet/rad-om-ai-chattbottar-och-liknande-verktyg</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>2025-06-05, 02:00:00</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>2025-06-05, 13:55:53</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>2025-06-05, 14:02:33</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_SU3FAEIJ" class="item standard">
+			<h2>Oro för att AI lockar till genvägar istället för lärande</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Standard</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Skolverket</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2024-08-21</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.skolverket.se/om-skolverket/nyheter-och-pressmeddelanden/nyheter/nyheter/2024-08-21-oro-for-att-ai-lockar-till-genvagar-istallet-for-larande">https://www.skolverket.se/om-skolverket/nyheter-och-pressmeddelanden/nyheter/nyheter/2024-08-21-oro-for-att-ai-lockar-till-genvagar-istallet-for-larande</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>2025-06-05, 02:00:00</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>2025-06-05, 14:10:40</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>2025-06-05, 14:16:30</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_T8T6VVGV" class="item standard">
+			<h2>Använt generativa AI-verktyg efter användning av internet, kön, redovisningsgrupp och år</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Standard</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Statistiska centralbyrån</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2024</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.statistikdatabasen.scb.se/">https://www.statistikdatabasen.scb.se/</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>2025-06-03, 02:00:00</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>Statistikmyndigheten SCB</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>2025-06-05, 11:31:33</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>2025-06-05, 12:17:37</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_JPG2TY6Q" class="item standard">
+			<h2>Artificiell intelligens (AI) i Sverige 2019</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Standard</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Statistiska centralbyrån</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2019</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.scb.se/hitta-statistik/statistik-efter-amne/forskning-och-det-digitala-samhallet/forskning-och-utveckling/forskning-och-utveckling-i-sverige/pong/statistiknyhet/artificiell-intelligens-ai-i-sverige-2019/">https://www.scb.se/hitta-statistik/statistik-efter-amne/forskning-och-det-digitala-samhallet/forskning-och-utveckling/forskning-och-utveckling-i-sverige/pong/statistiknyhet/artificiell-intelligens-ai-i-sverige-2019/</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>2025-05-20, 02:00:00</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>Statistikmyndigheten SCB</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>2025-06-05, 12:11:34</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>2025-06-05, 12:17:40</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_QD5X4ZRW" class="item report">
+			<h2>Lärarledd digitalisering - Möjligheter och förbehåll på tröskeln till ett nytt AI-landskap</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Report</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Sveriges Lärare</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2024</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.sverigeslarare.se/om-oss/opinion-debatt/undersokningar/lararledd-digitalisering/">https://www.sverigeslarare.se/om-oss/opinion-debatt/undersokningar/lararledd-digitalisering/</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>2025-03-01, 01:00:00</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>2025-06-05, 11:51:39</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>2025-06-05, 12:04:56</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_GCBSXDIV" class="item standard">
+			<h2>Nvidias vd till Sverige: ”Ta kontrollen över er intelligens – bygg egen AI”</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Standard</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>SVT</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2025-05-24</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.svt.se/nyheter/inrikes/nvidias-vd-till-sverige-ta-kontrollen-over-er-intelligens-bygg-egen-ai">https://www.svt.se/nyheter/inrikes/nvidias-vd-till-sverige-ta-kontrollen-over-er-intelligens-bygg-egen-ai</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>2025-06-01, 02:00:00</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>SVT Nyheter</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>2025-06-05, 12:18:11</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>2025-06-05, 12:21:03</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_NNYIERQ3" class="item journalArticle">
+			<h2>The Use of Cronbach’s Alpha When Developing and Reporting Research Instruments in Science Education</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Keith S Taber</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2018</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>48</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>1273-1296</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Research in Science Education</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/https://doi.org/10.1007/s11165-016-9602-2">https://doi.org/10.1007/s11165-016-9602-2</a></td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>2025-06-05, 16:30:23</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>2025-06-05, 16:34:07</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_IDKSRMGX" class="item standard">
+			<h2>Skolan i ett digitaliserat samhälle</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Standard</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Martin Tallvid</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2022</td>
+					</tr>
+					<tr>
+					<th>Short Title</th>
+						<td>Digitalisering – grundskola, gymnasieskola Modul: Leda och lära i tekniktäta klassrum Del 1: Skolan i ett digitaliserat samhälle</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://larportalen.skolverket.se/api/resource/P03WCPLAR164977">https://larportalen.skolverket.se/api/resource/P03WCPLAR164977</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>2025-05-15, 02:00:00</td>
+					</tr>
+					<tr>
+					<th>Place</th>
+						<td>Stockholm</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>Skolverket</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>2025-06-05, 12:25:26</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>2025-06-05, 12:37:20</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_K54V7GUS" class="item journalArticle">
+			<h2>Factors influencing teachers’ intention to use technology: Model development and test</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Timothy Teo</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2011</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>57</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>2432-2440</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Computers &amp; Education</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/https://doi.org/10.1016/j.compedu.2011.06.008">https://doi.org/10.1016/j.compedu.2011.06.008</a></td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>4</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>2025-06-05, 12:22:23</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>2025-06-05, 12:23:15</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_ZYTPSEDC" class="item journalArticle">
+			<h2>Technology Acceptance Model 3 and a Research Agenda on Interventions</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Viswanath Venkatesh</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Hillol Bala</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2008</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.researchgate.net/publication/247644487_Technology_Acceptance_Model_3_and_a_Research_Agenda_on_Interventions">https://www.researchgate.net/publication/247644487_Technology_Acceptance_Model_3_and_a_Research_Agenda_on_Interventions</a></td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>39</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>273-315</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Decision Sciences</td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>2</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>2025-06-05, 15:22:37</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>2025-06-05, 15:23:48</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_VFEGFH2G" class="item journalArticle">
+			<h2>User Acceptance of Information Technology: Toward a Unified View</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Viswanath Venkatesh</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Michael G Morris</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Gordon B Davis</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Fred D Davis</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2003</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.jstor.org/stable/30036540">https://www.jstor.org/stable/30036540</a></td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>27</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>425-478</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>MIS Quarterly</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/https://doi.org/10.2307/30036540">https://doi.org/10.2307/30036540</a></td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>3</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>2025-06-05, 15:18:46</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>2025-06-05, 15:21:44</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_Z5QY8YPT" class="item book">
+			<h2>God forskningssed 2024</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Book</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Vetenskapsrådet</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2024</td>
+					</tr>
+					<tr>
+					<th>Place</th>
+						<td>Box 1035 SE-101 38 Stockholm, Sweden</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-91-89845-08-4</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>2025-06-05, 16:34:07</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>2025-06-05, 16:35:23</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_CXYCP47U" class="item journalArticle">
+			<h2>Artificial intelligence in education: A systematic literature review</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Shan Wang</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Fang Wang</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Zhen Zhu</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Jingxuan Wang</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Tam Tran</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Zhao Du</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2024</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>252</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Expert Systems with Applications</td>
+					</tr>
+					<tr>
+					<th>Series</th>
+						<td>Part A</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/:https://doi.org/10.1016/j.eswa.2024.124167">:https://doi.org/10.1016/j.eswa.2024.124167</a></td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>2025-06-05, 15:30:55</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>2025-06-05, 15:32:09</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_ZSZX5BUP" class="item journalArticle">
+			<h2>Disentangling behavioral intention and behavioral expectation</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Paul R Warshaw</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Fred D Davis</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>1985</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>21</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>213-228</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Journal of Experimental Social Psychology</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/https://doi.org/10.1016/0022-1031(85)90017-4">https://doi.org/10.1016/0022-1031(85)90017-4</a></td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>3</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>2025-06-05, 16:07:21</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>2025-06-05, 16:09:47</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_L9UX4LI4" class="item journalArticle">
+			<h2>The unified theory of acceptance and use of technology (UTAUT): a literature review</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Michael D Williams</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Nripendra P Rana</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Yogesh K Dwivedi</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2015</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>28</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>443-488</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Journal of Enterprise Information Management</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/https://doi.org/10.1108/JEIM-09-2014-0088">https://doi.org/10.1108/JEIM-09-2014-0088</a></td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>3</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>1741-0398</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>2025-06-05, 15:57:44</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>2025-06-05, 16:01:16</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_6HL4JH2G" class="item journalArticle">
+			<h2>The Unified Theory of Acceptance and Use of Technology (UTAUT) in Higher Education: A Systematic Review</h2>
+				<table>
+					<tbody><tr>
+						<th>Item Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Liangyong Xue</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Abdullah Mat Rashid</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Sha Ouyang</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2024</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>14</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Sage Open</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/https://doi.org/10.1177/21582440241229570">https://doi.org/10.1177/21582440241229570</a></td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>1</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>2025-06-05, 15:32:54</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>2025-06-05, 15:34:40</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+		</ul>
+	
+</body></html>
