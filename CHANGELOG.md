@@ -2,12 +2,11 @@
 
 Alla signifikanta förändringar dokumenteras här
 
-## [1.0.1] (2025-06-01)
+## [1.0.1] (2025-06-06)
 ### Deleted
 - Tog bort onödiga filer
-- Lade till SmartPLS resultat som omfattar imputerade data och rena data
 ### Added
-- Lade till slutliga uppsatsen som lämnades in 2025-06-05_~18-00
+- Lade till slutliga uppsatsen som skickades in till studium 2025-06-05_~18-00
 - Lade till referensfil "2025-06-05_18-00_final-submission-zotero-references.rdf"
 - Lade till zotero rapport
 - Flyttade
